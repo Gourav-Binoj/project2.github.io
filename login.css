@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(uwp4277480.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.362);
+    width: 500px;
+    height: 500px;
+    margin: 10%;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+strong{
+    margin: 0%;
+    font-size: 40px;
+    color: rgb(255, 0, 204);
+}
+a{
+    color: rgb(255, 0, 204);
+}
+a:hover{
+    color: rgb(198, 18, 162);
+}
+#username{
+    margin: 0%;
+    padding: 5px;
+    width: 300px;
+    border-radius: 20px;
+}
+#password{
+    margin: 0%;
+    padding: 5px;
+    width: 300px;
+    border-radius: 20px;
+}
+tr{
+    margin: 0%;
+}
+.button{
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(255, 0, 204);
+    color: white;
+    border-radius: 10px;
+}
+.button:hover{
+    color: rgb(255, 0, 204);
+    background-color: rgba(255, 255, 255, 0.205);
+}

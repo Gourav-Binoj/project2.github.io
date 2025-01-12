@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(87, 22, 147);
+}
+
+.container {
+    max-width: 1200px; /* Sets a maximum width for better responsiveness */
+    width: 100%; /* Allows the container to adapt to screen size */
+    margin: 30px auto; /* Centers the container horizontally */
+    background-color: blueviolet;
+    border-radius: 30px;
+    height: 650px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distributes space evenly */
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 1.8rem; /* Adjusted font size for better readability */
+}
+
+.register,
+.home,
+.login {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.home {
+    padding-left: 270px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.submain {
+    max-width: 600px;
+    padding: 8rem 2rem;
+}
+
+.submain h1 {
+    font-size: 2.5rem; /* Slightly reduced for readability */
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.submain p {
+    font-size: 1rem; /* Slightly reduced for readability */
+    line-height: 1.5;
+    color: #e0e0e0;
+    margin-bottom: 2rem;
+}
+
+.image {
+    max-width: 500px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.home:hover,.register:hover,.login:hover{
+    color: purple;
+}
+.sign{
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(243, 173, 42);
+    border-radius: 20px;
+}
+.r{
+    text-decoration: none;
+    margin: 5px;
+    padding: 20px;
+    background-color: rgb(243, 99, 42);
+    border-radius: 20px;
+}
+
+.sign:hover{
+    background-color: orange;
+}
+.r:hover{
+    background-color: rgb(245, 80, 15);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyKaroo!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <a class="b" href="#"><strong>BuyKaroo!</strong></a>
+        <a class="l" id="lo" href="#">LogOut</a>
+    </header>
+    <section class="section">
+        <div class="product" data-name="Product 1" data-price="354">
+            <img src="items.png" alt="product1">
+            <div class="c">
+                <h2>Product 1</h2>
+                <p>$354</p>
+                <button class="buy-btn">Buy</button>
+            </div>
+        </div>
+        <div class="product" data-name="Product 2" data-price="154">
+            <img src="items.png" alt="product1">
+            <div class="c">
+                <h2>Product 2</h2>
+                <p>$154</p>
+                <button class="buy-btn">Buy</button>
+            </div>
+        </div>
+        <div class="product" data-name="Product 3" data-price="653">
+            <img src="items.png" alt="product1">
+            <div class="c">
+                <h2>Product 3</h2>
+                <p>$653</p>
+                <button class="buy-btn">Buy</button>
+            </div>
+        </div>
+        <div class="product" data-name="Product 4" data-price="454">
+            <img src="items.png" alt="product1">
+            <div class="c">
+                <h2>Product 4</h2>
+                <p>$454</p>
+                <button class="buy-btn">Buy</button>
+            </div>
+        </div>
+        <div class="product" data-name="Product 5" data-price="74">
+            <img src="items.png" alt="product1">
+            <div class="c">
+                <h2>Product 5</h2>
+                <p>$74</p>
+                <button class="buy-btn">Buy</button>
+            </div>
+        </div>
+
+        <!-- Repeat for more products -->
+    </section>
+
+    <!-- Cart button -->
+    <div class="cart-btn">
+        <button onclick="toggleCart()">Cart (0)</button>
+    </div>
+
+    <div class="list">
+        <a href="todolist.html">List</a>
+    </div>
+
+    <!-- Cart Popup -->
+    <div class="cart-popup" id="cartPopup">
+        <div class="cart-content">
+            <button class="close-btn" onclick="toggleCart()">X</button>
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems"></ul>
+            <p id="totalAmount">Total: $0</p>
+            <button onclick="purchase()" class="purchase-btn">Purchase</button>
+        </div>
+    </div>
+    <section class="comments-section">
+        <h2>Comments</h2>
+
+        <!-- Form to Add Comment -->
+        <form class="comment-form" id="commentForm" onsubmit="addComment(event)">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+
+            <button type="submit">Submit Comment</button>
+        </form>
+
+        <!-- Display Comments -->
+        <div class="comments-list" id="commentsList">
+          <!-- Comments will be dynamically added here -->
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

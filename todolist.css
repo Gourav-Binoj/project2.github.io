@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+body{
+    background-color: blueviolet;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 30px;
+    font-size: 80px;
+}
+
+.k{
+    background-color: rgb(186, 113, 255);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    color: azure;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#del{
+    display:flex;
+    justify-content:end;
+margin: 0%;
+color: red;
+cursor: pointer;
+    
+}
+.k:hover{
+    background-color: rgb(160, 61, 253);
+}
+
+.h{
+    background-color: rgb(113, 255, 238);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    color: azure;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.g{
+    background-color: rgb(113, 146, 255);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    color: azure;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h:hover{
+    background-color: rgb(47, 240, 217);
+}
+.g:hover{
+    background-color: rgb(73, 112, 242);
+}
+.a{
+    background-color: rgb(71, 65, 65);
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
+.a:hover{
+    background-color: rgb(49, 47, 47);
+}
